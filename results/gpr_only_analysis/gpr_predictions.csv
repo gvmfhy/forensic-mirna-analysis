@@ -1,0 +1,11 @@
+sample,true_label,predicted_label
+GSM4634783_saliva-array1,saliva,saliva
+GSM4634784_saliva-array2,saliva,saliva
+GSM4634785_peripheral_blood-1,peripheral_blood,peripheral_blood
+GSM4634786_peripheral_blood-2,peripheral_blood,peripheral_blood
+GSM4634787_semen_array-1,semen,semen
+GSM4634788_semen_array-2,semen,semen
+GSM4634789_vaginal_secretion_array-1,vaginal_secretion,vaginal_secretion
+GSM4634790_vaginal_secretion_array-2,vaginal_secretion,vaginal_secretion
+GSM4634791_menstrual_blood_array-1,menstrual_blood,menstrual_blood
+GSM4634792_menstrual_blood_array-2,menstrual_blood,menstrual_blood

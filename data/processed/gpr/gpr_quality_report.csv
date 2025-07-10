@@ -1,0 +1,11 @@
+total_spots,mirna_spots,mirna_percentage,cy5_median,cy3_median,cy5_bg_median,cy3_bg_median,sample,body_fluid
+15840,8248,52.070707070707066,30.0,85.0,29.0,32.0,GSM4634791_menstrual_blood_array-1,menstrual_blood
+15840,8248,52.070707070707066,30.0,77.0,29.0,31.0,GSM4634788_semen_array-2,semen
+15840,8248,52.070707070707066,29.0,86.0,28.0,30.0,GSM4634789_vaginal_secretion_array-1,vaginal_secretion
+15840,8248,52.070707070707066,29.0,94.0,29.0,33.0,GSM4634786_peripheral_blood-2,peripheral_blood
+15840,8248,52.070707070707066,29.0,81.0,28.0,29.0,GSM4634790_vaginal_secretion_array-2,vaginal_secretion
+15840,8248,52.070707070707066,29.0,84.0,29.0,31.0,GSM4634785_peripheral_blood-1,peripheral_blood
+15840,8248,52.070707070707066,29.0,89.0,29.0,32.0,GSM4634792_menstrual_blood_array-2,menstrual_blood
+15840,8248,52.070707070707066,29.0,79.0,28.0,30.0,GSM4634787_semen_array-1,semen
+15840,8248,52.070707070707066,29.0,85.0,29.0,33.0,GSM4634783_saliva-array1,saliva
+15840,8248,52.070707070707066,30.0,83.0,29.0,35.0,GSM4634784_saliva-array2,saliva
