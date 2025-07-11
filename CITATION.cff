@@ -1,0 +1,43 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Forensic miRNA Analysis Pipeline
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Austin P.
+    family-names: Morrissey
+    email: austinm@bu.edu
+    affiliation: 'Pinpoint RNA'
+    orcid: 'https://orcid.org/0009-0007-8578-2687'
+    website: 'https://www.linkedin.com/in/austin-p-morrissey/'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX
+    description: The concept DOI for the collection containing all versions of this software.
+repository-code: 'https://github.com/gvmfhy/forensic-mirna-analysis'
+url: 'https://austinpatrick.substack.com'
+abstract: >-
+  A comprehensive bioinformatics pipeline for identifying
+  microRNA (miRNA) signatures in forensic body fluid samples.
+  This pipeline processes publicly available microarray datasets
+  (GSE153135 and GSE49630) to discover miRNA markers that can
+  distinguish between blood, saliva, semen, and vaginal
+  secretions for forensic identification purposes. The analysis
+  implements a novel multi-tier expression framework and
+  identifies 393 forensic marker candidates with large effect
+  sizes suitable for body fluid identification.
+keywords:
+  - forensics
+  - miRNA
+  - microRNA
+  - bioinformatics
+  - body fluid identification
+  - gene expression
+  - microarray analysis
+license: MIT
+version: 1.0.0
+date-released: '2024-07-11'
