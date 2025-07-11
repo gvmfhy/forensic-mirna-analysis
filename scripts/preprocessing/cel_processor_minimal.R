@@ -1,10 +1,9 @@
 #!/usr/bin/env Rscript
 
-# Minimal CEL processor - assumes packages are installed
-# If not installed, run:
-# BiocManager::install(c("oligo", "limma"))
+# CEL processor using oligo for Affymetrix miRNA ST arrays
+# This correctly processes ST arrays (affy would produce invalid results)
 
-cat("=== Minimal CEL Processing ===\n")
+cat("=== CEL Processing with oligo ===\n")
 cat("Loading libraries...\n")
 
 library(oligo)
