@@ -21,7 +21,7 @@ identifiers:
 repository-code: 'https://github.com/gvmfhy/forensic-mirna-analysis'
 url: 'https://austinpatrick.substack.com'
 abstract: >-
-  A comprehensive bioinformatics pipeline for identifying
+  A bioinformatics pipeline for identifying
   microRNA (miRNA) signatures in forensic body fluid samples.
   This pipeline processes publicly available microarray datasets
   (GSE153135 and GSE49630) to discover miRNA markers that can

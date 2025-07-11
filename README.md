@@ -1,6 +1,6 @@
 # Forensic miRNA Analysis Pipeline
 
-A comprehensive bioinformatics pipeline for identifying microRNA (miRNA) signatures in forensic body fluid samples. This project analyzes publicly available microarray datasets to discover miRNA markers that can distinguish between blood, saliva, semen, and vaginal secretions for forensic identification purposes.
+A bioinformatics pipeline for identifying microRNA (miRNA) signatures in forensic body fluid samples. This project analyzes publicly available microarray datasets to discover miRNA markers that can distinguish between blood, saliva, semen, and vaginal secretions for forensic identification purposes.
 
 ## 🔬 Project Overview
 
