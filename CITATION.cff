@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Forensic miRNA Analysis Pipeline
+title: 'Vibe Coding: AI-assisted Development of Forensic miRNA Analysis Pipeline using Claude Opus 4'
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -21,15 +21,18 @@ identifiers:
 repository-code: 'https://github.com/gvmfhy/forensic-mirna-analysis'
 url: 'https://austinpatrick.substack.com'
 abstract: >-
-  A bioinformatics pipeline for identifying
-  microRNA (miRNA) signatures in forensic body fluid samples.
-  This pipeline processes publicly available microarray datasets
-  (GSE153135 and GSE49630) to discover miRNA markers that can
-  distinguish between blood, saliva, semen, and vaginal
-  secretions for forensic identification purposes. The analysis
-  implements a novel multi-tier expression framework and
-  identifies 393 forensic marker candidates with large effect
-  sizes suitable for body fluid identification.
+  A bioinformatics pipeline for identifying microRNA (miRNA) 
+  signatures in forensic body fluid samples, developed through 
+  transparent AI-assisted programming using Claude Opus 4. This 
+  project demonstrates "vibe coding" - using natural language to 
+  guide AI through complex scientific software development. The 
+  pipeline processes publicly available microarray datasets 
+  (GSE153135 and GSE49630) to discover miRNA markers that can 
+  distinguish between blood, saliva, semen, and vaginal secretions 
+  for forensic identification purposes. The analysis uses standard 
+  statistical methods and identifies 393 forensic marker candidates 
+  with large effect sizes. Complete development logs are included 
+  to promote transparency in AI-assisted scientific computing.
 keywords:
   - forensics
   - miRNA
@@ -38,6 +41,11 @@ keywords:
   - body fluid identification
   - gene expression
   - microarray analysis
+  - AI-assisted development
+  - vibe coding
+  - Claude Opus 4
+  - transparent scientific computing
+  - human-AI collaboration
 license: MIT
 version: 1.0.0
-date-released: '2024-07-11'
+date-released: '2025-07-11'

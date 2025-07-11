@@ -1,8 +1,15 @@
-# Forensic miRNA Analysis Pipeline
+# Vibe Coding: AI-assisted Development of Forensic miRNA Analysis Pipeline using Claude Opus 4
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15860835.svg)](https://doi.org/10.5281/zenodo.15860835)
 
-A bioinformatics pipeline for identifying microRNA (miRNA) signatures in forensic body fluid samples. This project analyzes publicly available microarray datasets to discover miRNA markers that can distinguish between blood, saliva, semen, and vaginal secretions for forensic identification purposes.
+A bioinformatics pipeline for identifying microRNA (miRNA) signatures in forensic body fluid samples, developed through transparent human-AI collaboration. This project demonstrates "vibe coding" - using natural language to guide AI through complex scientific software development, resulting in a working pipeline that identifies 393 miRNA markers for forensic body fluid identification.
+
+## 🎯 Development Transparency
+
+This entire pipeline was developed through AI-assisted programming using Claude Opus 4. The complete, unedited development session is available:
+- **[View the full vibe coding transcript](docs/development_logs/2025-07-11-session/vibe_coding_session.html)** - 338,952 lines of human-AI interaction
+- **[Read about the development process](docs/development_logs/2025-07-11-session/README.md)** - Including failures and recovery strategies
+- **[Visit the web version](https://rna-is-cool.netlify.app/)** - For rendered documentation
 
 ## 🔬 Project Overview
 
@@ -14,10 +21,21 @@ The analysis identifies 393 forensic miRNA marker candidates with large effect s
 
 ## 📊 Key Results
 
-- **Blood markers**: 155 candidates (e.g., hsa-miR-486-5p with 3243-fold enrichment)
-- **Semen markers**: 167 candidates (e.g., hsa-miR-891a with 175-fold enrichment)
-- **Saliva markers**: 49 candidates (e.g., hsa-miR-205 with 275-fold enrichment)
-- **Vaginal markers**: 22 candidates (e.g., hsa-miR-138-1-star with 7-fold enrichment)
+From analysis of n=5 samples per body fluid type:
+- **Blood markers**: 155 candidates (e.g., hsa-miR-486-5p with 3243-fold enrichment*)
+- **Semen markers**: 167 candidates (e.g., hsa-miR-891a with 175-fold enrichment*)
+- **Saliva markers**: 49 candidates (e.g., hsa-miR-205 with 275-fold enrichment*)
+- **Vaginal markers**: 22 candidates (e.g., hsa-miR-138-1-star with 7-fold enrichment*)
+
+*Note: Large fold-changes may reflect variance in small sample sizes and require validation
+
+## ⚠️ Important Limitations
+
+- **Small sample size**: Only n=5 samples per body fluid type
+- **No independent validation**: Results require confirmation in larger cohorts
+- **Statistical constraints**: FDR < 0.05 not achievable with 13,564 tests and small n
+- **Forensic applicability**: These are research findings, not validated forensic markers
+- **Development history**: See development logs for complete transparency including errors
 
 ## 🚀 Quick Start
 
@@ -92,7 +110,7 @@ python scripts/analysis/cel_practical_forensic.py
 ## 🔍 Analysis Approach
 
 ### Multi-Tier Expression Framework
-The pipeline implements a novel multi-tier detection system for continuous expression data:
+The pipeline implements a multi-tier detection system for continuous expression data:
 - **High confidence**: log2 ratio > -2.0
 - **Moderate confidence**: -6.0 to -2.0  
 - **Low confidence**: -10.0 to -6.0
@@ -139,6 +157,23 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - GEO datasets GSE153135 and GSE49630 authors
 - Bioconductor community for R packages
 - Forensic miRNA research community
+- Claude Opus 4 (Anthropic) for AI programming assistance
+
+## 💡 LLMs and Scientific Discovery
+
+Historically, experimental science has operated in siloed compartments, often insulated from broader technological innovations, especially those involving computational advancements. Computationally adjacent "dry-lab" fields rapidly incorporate cutting-edge AI tools, while traditional "wet-lab" research frequently lags behind due to habits of secrecy, selective reporting, and institutional inertia.
+
+Despite known errors and current limitations, the widespread use of LLMs ensures their lasting impact. They underpin future technologies and scientific methodologies, making transparent practices today not just beneficial but essential.
+
+Scientific publishing currently suffers from an entrenched culture of presenting only successful results. By openly documenting failures, misunderstandings, and friction points through transparent, raw development logs, we directly challenge this problematic status quo. Publishing these records online, such as full terminal logs hosted on publicly accessible websites, achieves two goals:
+
+First, it immediately improves reproducibility, honesty, and transparency in scientific discourse. Researchers can directly examine genuine human-AI interactions, learn from recorded failures, and clearly understand breakdown points. We can better criticize each other and offer our domain specific knowledge when we notice errors.
+
+Second, openly shared development logs represent an investment in future AI development. Public repositories containing candid transcripts may enter LLM training datasets, helping AI models learn from realistic, error-inclusive examples of human-AI collaboration, thereby improving their capability to navigate and mitigate such friction points.
+
+By contributing realistic scientific problem-solving data to public repositories, individual researchers actively shape how future models understand and respond to scientific queries. This approach values instructive failures as essential components of scientific progress.
+
+Publishing raw terminal logs directly targets the largest visibility gap in science by surfacing misfires and dead ends that traditional papers omit. This transparency provides peers—and future LLMs—access to the full causal chain of discovery, improving present-day scientific transparency and influencing human-AI interactions.
 
 ## 📞 Contact
 
@@ -146,4 +181,4 @@ For questions or collaborations, please open an issue on GitHub.
 
 ---
 
-**Note**: This pipeline was developed for research purposes. Forensic applications require additional validation on independent samples.
+**Note**: This pipeline was developed for research purposes. Forensic applications require additional validation on independent samples. The development process demonstrates that sophisticated bioinformatics tools can be created through AI collaboration by researchers without traditional programming expertise.
