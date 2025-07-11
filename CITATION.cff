@@ -16,7 +16,7 @@ authors:
     website: 'https://www.linkedin.com/in/austin-p-morrissey/'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.XXXXXXX
+    value: 10.5281/zenodo.15860835
     description: The concept DOI for the collection containing all versions of this software.
 repository-code: 'https://github.com/gvmfhy/forensic-mirna-analysis'
 url: 'https://austinpatrick.substack.com'

@@ -1,5 +1,7 @@
 # Forensic miRNA Analysis Pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15860835.svg)](https://doi.org/10.5281/zenodo.15860835)
+
 A bioinformatics pipeline for identifying microRNA (miRNA) signatures in forensic body fluid samples. This project analyzes publicly available microarray datasets to discover miRNA markers that can distinguish between blood, saliva, semen, and vaginal secretions for forensic identification purposes.
 
 ## 🔬 Project Overview
